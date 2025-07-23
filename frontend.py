@@ -3,7 +3,7 @@ import requests
 from streamlit_lottie import st_lottie
 import json
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "http://13.60.230.195:8080/predict"
 
 st.set_page_config(page_title="Insurance Predictor", layout="centered", page_icon="💡")
 st.title("💼 Insurance Premium Category Predictor")
